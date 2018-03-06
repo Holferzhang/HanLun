@@ -1,0 +1,50 @@
+a {
+    color:[[setting:linkcolor]];
+}
+
+.top-bar,
+.block .title h2 {
+    color:[[setting:blockheadercolor]];
+    background:url(contemporary/pix/top_bg.png);
+	border-color:[[setting:blockheaderbg]];
+	height: 10vh;
+	position: relative;
+}
+.top-bar .logo_div{position: absolute; width: 100%; height: 4vh; top:1.5vh; text-align: center;}
+.top-bar .logo_div img{}
+.top-bar .headermenu .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext { color:[[setting:blockheadercolor]];}
+.top-bar .headermenu{height: 100%;}
+.top-bar ul,.top-bar ul li{}
+.menubar{line-height: 10vh;}
+#custommenu .toggle {background:[[setting:blockheaderbg]];
+	border-color:[[setting:blockheaderbg]];}
+.myclass h2,
+.mybutton,
+.mybutton-login,
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	background:[[setting:blockheaderbg]] none repeat scroll 0 0;}
+#page .custom_menu_submenu	 {background:[[setting:blockheaderbg]];
+	border-color:[[setting:blockheaderbg]];}
+#custommenu {
+    background:[[setting:menubg]];
+}
+.filemanager select, .filemanager input, .filemanager button, .filemanager textarea, .file-picker select, .file-picker input, .file-picker button, .file-picker textarea{
+	color:[[setting:blockheadercolor]];
+}
+.btn-primary{
+	 background:[[setting:blockheaderbg]];
+}
+
+.yui3-skin-sam #page .yui3-menu-label, .yui3-skin-sam #page .yui3-menuitem-content {
+    color:[[setting:menucolor]] !important;
+}
+
+#custommenu #custom_menu_1  .yui3-menu-content li a:hover {
+    background:[[setting:menulinkhover]];
+}
+@media (max-width:799px){
+#responsive-menu {background:[[setting:blockheaderbg]];
+	border-color:[[setting:blockheaderbg]]}
+}
+/** Custom CSS **/
+[[setting:customcss]]

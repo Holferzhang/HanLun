@@ -1,0 +1,84 @@
+/** Footer **/
+.footerLeft{float:left; text-align: left; margin-left: 1vw;}
+.footerRight{float:right; text-align: right; margin-right: 1vw;}
+.footerRight a{text-decoration: none; color: #FFFFFF;}
+
+#signupDiv{width:60%; margin: 0 auto; margin-top: 3vh; position: relative;}
+#region-main{width:100%; float:none;  }
+#loginbox{margin-top: 8vh;}
+.rememberpass{margin-top: 2vh;}
+.loginButton{position: relative;}
+.loginButton img{position: absolute; left: 18%; top:7%;}
+.loginButton .Asignup{position: relative; display: block; left: 5%;}
+#guestform{ position: relative;}
+.guestform #guestForm_bg{height: 100%; width: 100%; position: relative; left: 0;}
+#guestInputButton{position: absolute;bottom: 26%; left: 7%; width: 37%; height: 34%; 
+background: url(contemporary/pix/guestButton.png);
+background-repeat:no-repeat;
+background-position:20% 54%; 
+margin: 0;
+}
+#guestButton{position: absolute; height: 22%; width: auto; left: 2em; top: 50%;}
+#guestIcon{position: absolute; height: 30%; width: auto; right: 2em; top: 40%;}
+
+/** Sign Up **/
+#signupDiv form{background: #FFFFFF; margin-top: 0; padding-top: 2vh;}
+#signupDiv form input{background: #f1f1f1;}
+#signupDiv .fdescription{display: none;}
+#fitem_id_email .fitemtitle{float: left;}
+
+
+/**  My   **/
+.left_comb {width: 20%; float: left;}
+.lef_tbox{float: left; width: 100%;border-radius: 5px;border:1px solid #c5b4b4;}
+.right_box{float: right; width: 78%;margin-top:0px;margin-left:2%;}
+.clearBoth{clear:both;}
+
+.left_block{float: left;}
+.left_block_search{height:200px;}
+.left_info{width: 100%}
+.left_block_title{background: rgb(186,64,136);height:40px;line-height:40px;color:#FFF;font-weight: 800;float: left;}
+.left_block_A{height: 40px;width: 20%;}
+.left_block_B{width: 45%;padding-left:5%}
+.left_block_C{width: 15%;text-align: right}
+.left_block_D{width: 10%;padding-left:5%}
+
+.left_info_A{height: 40px;width: 20%;}
+.left_info_B{width: 45%;padding-left:5%}
+.left_info_C{width: 15%;text-align: right}
+.left_info_D{width: 10%;padding-left:5%}
+
+.search_title{width: 100%;background: rgb(186,64,136);height:40px}
+.search_select{height:40px;line-height:40px;border:1px solid rgb(186,64,136)}
+.search_form{text-align: center;margin-top:20px}
+.form_submit{clear: both ;color: #fff;background:  rgb(186,64,136) !important;margin-left: -10% !important;width:80px !important;
+}
+
+.right_block{height:700px; border: 1px solid rgb(151,194,252);margin-top:-150px;margin-left:20px }
+.lef_tbox_info{margin-top:0px;}
+
+.info_h3{padding: 15px 0px 0px 10px}
+.info_p{padding: 12px 10px 16px 12px}
+.span_left{float: left;margin-left:10px !important;}
+.span_right{float: right;color:#FF6347;padding-right: 45px !important; }
+.last_info{padding-top:40px;padding-bottom:70px}
+.info_icon{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 10px;
+  top: -80px;
+}
+.up_icon{
+    left: 33px;
+    top: -85px;
+    
+}
+.right_box_bg{
+ margin-left: 0px;
+ width:100%;
+ height:100%;
+}
+.info_icon_add{
+left: -33px;
+}

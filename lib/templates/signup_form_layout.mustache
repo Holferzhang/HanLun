@@ -1,0 +1,129 @@
+{{!
+    @template core/signup_form_layout
+
+    Example context (json):
+    {
+        "formhtml": "<p>(Form html would go here)</p>"
+    }
+}}
+<!--<h3>{{#str}}newaccount{{/str}}</h3>!-->
+<div id="signupDiv">
+	<div class="loginform_title">
+		<!--<h3><img src=""/>{{#str}} login {{/str}}</h3>-->
+        <h3><img src="{{#str}} holferRoot {{/str}}/testLogin.png"/>登錄到新帳戶</h3>
+    </div>
+{{{formhtml}}}
+	<div class="loginForm_bg">
+		<img src="{{#str}} holferRoot {{/str}}/form_bg.png" />
+	</div>
+</div>
+<script>
+	document.getElementById('id_birthday_day').style.display="none";
+	document.getElementById('id_birthday_day').options[0].selected = true;
+	document.getElementById('id_birthday_month').style.display="none";
+	document.getElementById('id_birthday_month').options[0].selected = true;
+</script>
+<!--
+<div class="signuppanel">
+	<div class="subcontent signupsub">
+    		{{#error}}
+    			<div class="loginerrors" role="alert">
+            		<a href="#" id="loginerrormessage" class="accesshide">{{error}}</a>
+            		{{{errorformatted}}}
+            </div>
+        {{/error}}
+        <div class="loginform_title">
+        		<h3><img src=""/>{{#str}} Sign Up {{/str}}</h3>
+        </div>
+        <form action="{{signupurl}}" method="post" id="mform1">
+        
+			<div class="form-input" style="display:flex; width:100%;">
+            		<div class="leftSpace">
+					<img src="http://localhost:8888/moodle34/theme/contemporary/pix/email.png" />
+					<label for="username" class="inputLabel">Email</label>
+            		</div>
+            		<input type="text" class="loginInput" name="username" id="id_email" size="15" value="{{username}}">
+				<div class="rightSpace"></div>
+            </div>
+            <div class="form-input" style="display:flex; width:100%;">
+            		<div class="leftSpaceInfo"></div>
+            		<div class="loginInputInfo">Info</div>
+				<div class="rightSpaceInfo"></div>
+            </div>
+			<div class="clearer"></div>
+			
+            <div class="form-input" style="display:flex; width:100%;">
+            		<div class="leftSpace">
+					<img src="http://localhost:8888/moodle34/theme/contemporary/pix/pass.png" />
+                    	<label for="password" class="inputLabel">{{#str}} password {{/str}}</label>
+                </div>
+                <input type="password" class="loginInput" name="password" id="id_password" size="15" value="">
+                <div class="rightSpace"></div>
+            </div>
+            <div class="form-input" style="display:flex; width:100%;">
+            		<div class="leftSpaceInfo"></div>
+            		<div class="loginInputInfo">Info</div>
+				<div class="rightSpaceInfo"></div>
+            </div>
+            <div class="clearer"></div>
+            
+            <div class="form-input" style="display:flex; width:100%;">
+            		<div class="leftSpace">
+					<img src="http://localhost:8888/moodle34/theme/contemporary/pix/pass.png" />
+                    	<label for="password" class="inputLabel">{{#str}} password {{/str}}</label>
+                </div>
+                <input type="password" class="loginInput" name="passwordConfirm" id="passwordConfirm" size="15" value="">
+                <div class="rightSpace"></div>
+            </div>
+            <div class="form-input" style="display:flex; width:100%;">
+            		<div class="leftSpaceInfo"></div>
+            		<div class="loginInputInfo">Info</div>
+				<div class="rightSpaceInfo"></div>
+            </div>
+            <div class="clearer"></div>
+            
+            <div class="form-input" style="display:flex; width:100%;">
+            		<div class="leftSpace">
+					<img src="http://localhost:8888/moodle34/theme/contemporary/pix/pass.png" />
+                    	<label for="password" class="inputLabel">{{#str}} gender {{/str}}</label>
+                </div>
+                <div class="loginInput">
+                		<input type="radio"  name="gender" id="genderMan" size="15" value="1"><label>男</label>
+                		<input type="radio"  name="gender" id="genderWoman" size="15" value="2"><label>女</label>
+                </div>
+                <div class="rightSpace"></div>
+            </div>
+            <div class="form-input" style="display:flex; width:100%;">
+            		<div class="leftSpaceInfo"></div>
+            		<div class="loginInputInfo">Info</div>
+				<div class="rightSpaceInfo"></div>
+            </div>
+            <div class="clearer"></div>
+            
+            <div class="form-input" style="display:flex; width:100%;">
+            		<div class="leftSpace">
+					<img src="http://localhost:8888/moodle34/theme/contemporary/pix/pass.png" />
+                    	<label for="password" class="inputLabel">{{#str}} birthday {{/str}}</label>
+                </div>
+                <input type="text" class="loginInput" name="Birthday" id="Birthday" size="15" value="">
+                <div class="rightSpace"></div>
+            </div>
+            <div class="form-input" style="display:flex; width:100%;">
+            		<div class="leftSpaceInfo"></div>
+            		<div class="loginInputInfo">Info</div>
+				<div class="rightSpaceInfo"></div>
+            </div>
+            <div class="clearer"></div>
+            <div class="loginButton"><input type="submit" id="signupButton" value="️登記" ></div>
+			<div class="loginForm_bg" style="bottom:0px;">
+            		<img src="http://localhost:8888/moodle34/theme/contemporary/pix/form_bg.png" />
+            </div>
+            <input type="hidden" id="id_username" value=''>
+            <input type="hidden" id="id_email2" value=''>
+            <input type="hidden" id="id_firstname" value=''>
+            <input type="hidden" id="id_lastname" value=''>
+        </form>
+    </div>
+</div>
+<script>var skipClientValidation = true;</script>
+!-->
